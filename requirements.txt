@@ -1,0 +1,8 @@
+llama-index
+llama-index-vector-stores-qdrant
+qdrant-client
+
+sentence-transformers
+pydantic
+pydantic-settings
+tqdm
