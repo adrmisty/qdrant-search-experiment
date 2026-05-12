@@ -1,6 +1,11 @@
+# qdrant
 llama-index
 llama-index-vector-stores-qdrant
 qdrant-client
+
+# open search
+opensearch-py
+llama-index-vector-stores-opensearch
 
 sentence-transformers
 pydantic

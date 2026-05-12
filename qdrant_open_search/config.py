@@ -5,9 +5,14 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 class Settings(BaseSettings):
     # qdrant settings
     QDRANT_HOST: str = "localhost"
-    QDRANT_PORT: int = 6335
+    QDRANT_PORT: int = 6337
     COLLECTION_NAME: str = "eufb_search"
     CACHE_DIR: str = "/tmp/huggingface"
+    
+    # opensearch settings
+    OPENSEARCH_HOST: str = "localhost"
+    OPENSEARCH_PORT: int = 9200
+    INDEX_NAME: str = "eufb_search"
     
     # multilingual embedding model (1st is the one used in ko-quality)
     #MODEL_NAME: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
